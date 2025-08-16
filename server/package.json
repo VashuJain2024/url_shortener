@@ -1,0 +1,22 @@
+{
+  "name": "url-shortener-server",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.19.2",
+    "mongoose": "^8.17.1",
+    "morgan": "^1.10.0",
+    "nanoid": "^5.0.7",
+    "valid-url": "^1.0.9"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
